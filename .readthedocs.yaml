@@ -17,9 +17,6 @@ build:
 # Python 配置
 python:
   install:
-    - method: pip
-      path: .
-      extra_requirements: [docs]  # 这会安装项目的 docs 额外依赖
     # 或者直接指定需求文件
     - requirements: requirements.txt
 
