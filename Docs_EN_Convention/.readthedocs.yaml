@@ -18,7 +18,7 @@ build:
 python:
   install:
     # 或者直接指定需求文件
-    - requirements: requirements.txt
+    - requirements: Docs_EN_Convention/requirements.txt
 
 # 可选：格式化工具
 formats:
@@ -27,7 +27,7 @@ formats:
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
-  configuration: source/conf.py
+  configuration: Docs_EN_Convention/source/conf.py
   # You can configure Sphinx to use a different builder, for instance use the dirhtml builder for simpler URLs
   # builder: "dirhtml"
   # Fail on all warnings to avoid broken references
