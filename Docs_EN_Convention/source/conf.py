@@ -15,7 +15,7 @@ release = '1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['myst_parser', 
-              'matplotlib.sphinxext.plot_directive',]
+             ]
 
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -58,3 +58,4 @@ latex_elements = {
 \\AtEndDocument{\\end{CJK}}
 ''',
 }
+
