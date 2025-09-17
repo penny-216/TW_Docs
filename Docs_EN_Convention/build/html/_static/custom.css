@@ -1,0 +1,77 @@
+
+/* 设置所有代码块的背景色 */
+.highlight {
+    background-color: #f7f7f7f0;
+}
+
+/* 侧边栏标题背景框 */
+div.sphinxsidebar h3,
+div.sphinxsidebar h4 {
+    background-color: #7886C7;
+    padding: 5px 8px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+/* 调整侧边栏位置 */
+div.sphinxsidebar {
+    position: fixed;
+    left: 0;
+    top: 40px; /* 避免与顶部导航栏重叠 */
+}
+
+
+/* 隐藏侧边栏中的 "Show Source" 链接 */
+.sourcelink,
+a[href*="_sources/"] {
+    display: none;
+}
+
+/* 正文链接悬停效果 */
+div.body a:hover {
+    color: #ff6600;
+}
+
+/* 侧边栏链接悬停效果 */
+div.sphinxsidebar a:hover {
+    color: #ff6600;
+}
+
+/* 设置文档中所有链接的样式 */
+div.body a {
+    color: #0894f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* 目录页面链接基础样式 */
+div.toctree-wrapper a.reference.internal {
+    color: #00008B;           /* 默认蓝色 */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 1px 0;
+}
+
+/* 目录链接悬停效果 */
+div.toctree-wrapper a.reference.internal:hover {
+    color: #ff6600;           /* 悬停时变为红色 */
+    text-decoration: underline;
+}
+
+/* 导航栏容器 */
+div.related {
+    background-color: #7886C7; /* 导航栏背景色 */
+    color: #fdfdfd;
+    padding: 6px 0;
+}
+
+/* 导航栏标题 */
+div.related h3 {
+    color: #fafbfb;
+    margin: 0 8px;
+    font-size: 2.5em;
+}
+
+div.related a {
+    color: #f9f8fb;
+}
